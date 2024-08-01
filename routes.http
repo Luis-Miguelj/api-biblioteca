@@ -1,0 +1,15 @@
+POST http://localhost:3333/livros
+Content-Type: application/json
+
+{
+  "nome": "Livro 1",
+  "status": "e",
+  "autor": "Autor 1",
+  "editora": "Editora 1"
+}
+
+###
+GET http://localhost:3333/livros
+
+###
+GET http://localhost:3333/livros/h
